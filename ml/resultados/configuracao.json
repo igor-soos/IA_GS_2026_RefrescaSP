@@ -1,0 +1,36 @@
+{
+  "anos": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "estacao": "A701",
+  "fuso": "America/Sao_Paulo",
+  "limiar_didatico_C": 35.0,
+  "seed": 42,
+  "features": [
+    "tmax",
+    "temp_media",
+    "umidade_media",
+    "pressao_media",
+    "vento_medio",
+    "tmax_lag1",
+    "tmax_lag2",
+    "tmax_lag7",
+    "tmax_media3",
+    "tmax_media7",
+    "ano_seno",
+    "ano_cosseno"
+  ],
+  "melhores_parametros": {
+    "rf__max_depth": null,
+    "rf__min_samples_leaf": 5,
+    "rf__n_estimators": 200
+  },
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "sklearn": "1.6.1"
+}

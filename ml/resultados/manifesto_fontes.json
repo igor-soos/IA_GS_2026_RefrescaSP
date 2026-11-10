@@ -1,0 +1,52 @@
+[
+  {
+    "ano": 2021,
+    "estacao": "A701",
+    "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/2021.zip",
+    "arquivo": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2021_A_31-12-2021.CSV",
+    "origem": "CSV local; confirmar origem oficial",
+    "sha256": "815c01daf4a6da98d26517b0214932a0754fa5cf997a79ce726516b50192fef1",
+    "verificado_em_utc": "2026-11-06T00:37:31.474578+00:00",
+    "arquivo_na_execucao_colab": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2021_A_31-12-2021 (1).CSV"
+  },
+  {
+    "ano": 2022,
+    "estacao": "A701",
+    "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/2022.zip",
+    "arquivo": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2022_A_31-12-2022.CSV",
+    "origem": "CSV local; confirmar origem oficial",
+    "sha256": "ceb3a4cde159602228959b96c32eb46134f37b9b3b84c90126d8cbf169d8d088",
+    "verificado_em_utc": "2026-11-06T00:37:31.481003+00:00",
+    "arquivo_na_execucao_colab": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2022_A_31-12-2022 (1).CSV"
+  },
+  {
+    "ano": 2023,
+    "estacao": "A701",
+    "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/2023.zip",
+    "arquivo": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2023_A_31-12-2023.CSV",
+    "origem": "CSV local; confirmar origem oficial",
+    "sha256": "ae52e888aa15f03e64c04cc0400896091d32da1ad4a303fdcb830cead9f78c44",
+    "verificado_em_utc": "2026-11-06T00:37:31.487090+00:00",
+    "arquivo_na_execucao_colab": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2023_A_31-12-2023 (1).CSV"
+  },
+  {
+    "ano": 2024,
+    "estacao": "A701",
+    "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/2024.zip",
+    "arquivo": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2024_A_31-12-2024.CSV",
+    "origem": "CSV local; confirmar origem oficial",
+    "sha256": "c5f365c069258734ba108f4e85e71ddb00a8a9d4c936b4a7ec76afd9c00fd276",
+    "verificado_em_utc": "2026-11-06T00:37:31.493022+00:00",
+    "arquivo_na_execucao_colab": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2024_A_31-12-2024 (1).CSV"
+  },
+  {
+    "ano": 2025,
+    "estacao": "A701",
+    "url": "https://portal.inmet.gov.br/uploads/dadoshistoricos/2025.zip",
+    "arquivo": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2025_A_31-12-2025.CSV",
+    "origem": "CSV local; confirmar origem oficial",
+    "sha256": "1eac048271dd0339613149e4638b293f5b627c847980a2b0853c725217e0a314",
+    "verificado_em_utc": "2026-11-06T00:37:31.500306+00:00",
+    "arquivo_na_execucao_colab": "INMET_SE_SP_A701_SAO PAULO - MIRANTE_01-01-2025_A_31-12-2025 (1).CSV"
+  }
+]

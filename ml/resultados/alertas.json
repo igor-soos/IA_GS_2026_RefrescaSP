@@ -1,0 +1,11 @@
+{
+  "limiar_didatico_C": 35.0,
+  "dias_quentes_reais": 5,
+  "TN": 298,
+  "FP": 0,
+  "FN": 5,
+  "TP": 0,
+  "recall": 0.0,
+  "precisao": null,
+  "MAE_dias_quentes_C": 2.3401470746135544
+}

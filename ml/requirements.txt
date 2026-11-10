@@ -1,0 +1,10 @@
+# Versões numéricas registradas no treinamento do Colab (Python 3.13.18).
+numpy==2.4.6
+pandas==2.2.3
+scikit-learn==1.6.1
+# Versões exatas destas bibliotecas não foram registradas na execução original.
+matplotlib>=3.8,<4
+joblib>=1.3,<2
+# Interface para execução local; no Colab use a célula de instalação do notebook.
+notebook>=7,<8
+ipykernel>=6,<8
