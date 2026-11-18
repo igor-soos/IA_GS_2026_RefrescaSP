@@ -14,7 +14,13 @@ Experimento isolado da Global Solution CitizenTech: prever a temperatura máxima
 
 ## Resultado principal
 
-O notebook foi executado com dados reais do INMET, estação A701 (São Paulo — Mirante), de 2021 a 2025. A floresta reduziu o MAE de teste em aproximadamente **9,8%** frente à persistência, mas **não sinalizou nenhum dos cinco dias com máxima ≥35 °C**. O indicador não está apto ao uso operacional.
+O notebook foi executado com dados reais do INMET, estação A701 (São Paulo — Mirante), de 2021 a 2025. O objetivo principal do experimento foi **prever a temperatura máxima do dia seguinte**, utilizando apenas informações disponíveis até o encerramento do dia anterior.
+
+Nesse objetivo, o Random Forest apresentou MAE de **2,295 °C** no teste, contra **2,543 °C** da persistência — referência que prevê a mesma máxima do dia anterior. Isso representa uma **redução de aproximadamente 9,8% no erro absoluto médio** nesse período.
+
+Como análise complementar à proposta do Refresca SP, avaliamos se as temperaturas previstas permitiriam sinalizar dias com máxima **≥35 °C**, utilizando um limiar didático fixado previamente. Nenhum dos cinco eventos presentes no teste foi sinalizado. Esse resultado evidencia uma distinção importante: **melhorar a previsão média da temperatura não garante detectar os dias mais extremos**, pois o modelo foi selecionado pelo menor erro médio, e não por uma métrica específica de detecção de calor intenso.
+
+Essa limitação não invalida o experimento de regressão, mas delimita sua aplicação: a versão apresentada é um protótipo de previsão de temperatura, ainda não um sistema de alerta definitivo. Preservamos os resultados e o limiar original para manter a avaliação transparente, sem realizar ajustes orientados pelos eventos já observados no teste. Uma evolução voltada à detecção de extremos exigiria seleção e calibração no treino e na validação, seguidas de avaliação em outro período ainda não utilizado.
 
 | Modelo | Conjunto | MAE (°C) | RMSE (°C) | R² |
 |---|---|---:|---:|---:|
