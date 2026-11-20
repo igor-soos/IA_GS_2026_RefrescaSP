@@ -43,7 +43,7 @@ A pasta `ml/figuras/` contém quatro gráficos; `ml/dados/brutos/` contém os ci
 
 ## Executar no Colab
 
-1. Abra https://colab.research.google.com/ e envie `ml/refresca_sp_ml.ipynb`.
+1. Abra https://colab.research.google.com/ e envie `ml/refresca_sp_ml.ipynb`. Alternativamente, abra o link do Colab no final desse ReadMe para a versão já executada.
 2. As saídas científicas já estão salvas. Para reproduzir, execute a célula de instalação, que não modifica o IPython do Colab. Se solicitado, reinicie a sessão e prossiga pela seção 1.
 3. Na seção 2, selecione os cinco CSVs de `ml/dados/brutos/` do pacote. Se já existirem na sessão, o upload será dispensado. Abrir só o notebook não transfere os CSVs automaticamente.
 4. Execute as etapas seguintes em ordem. CPU é suficiente. A busca faz 36 ajustes e um refit.
@@ -74,4 +74,4 @@ A regra de 35 °C é didática e não define oficialmente onda de calor. Uma est
 O Colab mantém salvo os resultados das execuções dos códigos.
 
 - **Link do Colab:** (https://colab.research.google.com/drive/1yw7_ZODMBrZW_QkJiriNP3TOlG-8aCXt?usp=sharing)
-- **Vídeo no YouTube:** adicionar após gravar.
+- **Vídeo no YouTube:** (https://youtu.be/pBHH6l_5bOA)
