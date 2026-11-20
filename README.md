@@ -7,9 +7,9 @@ Experimento isolado da Global Solution CitizenTech: prever a temperatura máxima
 | Integrante | RM |
 |---|---|
 | Matheus | 555177 |
-| Gustavo A. | 559098 |
+| Gustavo Atanazio | 559098 |
 | Nicolas | 556617 |
-| Gustavo C. | 556289 |
+| Gustavo Coelho | 556289 |
 | Igor Soos | 556010 |
 
 ## Resultado principal
